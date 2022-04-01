@@ -1,0 +1,42 @@
+.data-form {
+  align-items: center;
+  background-color: var(--trybe-green);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 80px;
+  padding: 15px;
+}
+
+.label {
+  display: none;
+}
+
+.wallet-input , .wallet-select {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  margin: 5px;
+  min-width: 150px;
+  padding: 5px;
+  text-align: center;
+  width: 15%;
+}
+
+.wallet-btn {
+  background-color: var(--dark-green);
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 5px;
+  text-align: center;
+  text-shadow: 0 0 2px var(--light-green);
+  width: 100px;
+}
+
+.wallet-btn:hover {
+  background-color: var(--dark-green2);
+}

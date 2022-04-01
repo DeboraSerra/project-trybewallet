@@ -1,0 +1,32 @@
+:root {
+
+  --dark-green: rgb(3, 107, 82);
+
+  --dark-green2: rgb(7, 119, 93);
+
+  --trybe-green: #0fa36b;
+
+  --light-green: rgb(47, 193, 140);
+
+  --light-gray: rgba(225, 229, 235, 0.42);
+
+  --light-gray2: rgb(225, 229, 235);
+
+  --gray1: rgb(90, 93, 98);
+
+  --gray2: rgb(40, 42, 47);
+
+  --gray3: rgb(30, 31, 36);
+
+  --gray4: rgb(26, 27, 28);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--gray1);
+}

@@ -1,0 +1,65 @@
+.table {
+  border-radius: 20px;
+  margin: 20px auto;
+  min-height: 100vh;
+  min-width: 1000px;
+  overflow-x: scroll;
+  width: 98%;
+}
+
+table {
+  width: 100%;
+}
+
+thead {
+  background-color: var(--gray4);
+  color: white;
+  font-size: 1.2rem;
+}
+
+thead tr {
+  height: 50px;
+}
+
+thead tr th {
+  padding: 10px;
+}
+
+tbody {
+  background-color: var(--light-gray);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+tbody tr {
+  height: 50px;
+}
+
+tbody tr td {
+  padding: 10px;
+}
+
+.table-btn {
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin: 2px;
+  padding: 4px;
+}
+
+.edit {
+  background-color: blue;
+}
+
+.edit:hover {
+  background-color: rgba(0, 0, 255, 0.587);
+}
+
+.delete {
+  background-color: rgb(199, 3, 3);
+}
+
+.delete:hover {
+  background-color: rgba(199, 3, 3, 0.692);
+}

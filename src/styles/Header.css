@@ -1,0 +1,12 @@
+header {
+  align-items: center;
+  background-color: var(--light-green);
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+header p {
+  font-size: 1.1rem;
+}
